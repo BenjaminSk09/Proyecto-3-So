@@ -64,6 +64,7 @@ Asigna un **quantum de tiempo fijo** a cada proceso de la cola circular.
 ## 📚 Autores
 
 Proyecto desarrollado por 
+---
 **-Esdras Alexander Choc Ajú         Carné: 1990-23-12485  
 -Henry Daniel Cabrera Estrada      Carné: 1990-23-3718  
 -Benjamin Bonifacio Sincal Ajú     Carné: 1990-23-11281  
