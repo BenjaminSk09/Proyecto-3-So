@@ -65,10 +65,10 @@ Asigna un **quantum de tiempo fijo** a cada proceso de la cola circular.
 
 Proyecto desarrollado por 
 ---
-**-Esdras Alexander Choc Ajú         Carné: 1990-23-12485  
+-Esdras Alexander Choc Ajú         Carné: 1990-23-12485  
 -Henry Daniel Cabrera Estrada      Carné: 1990-23-3718  
 -Benjamin Bonifacio Sincal Ajú     Carné: 1990-23-11281  
--Emerson Estudardo Guzmán Vielman  Carné: 1990-23-3484  **  
+-Emerson Estudardo Guzmán Vielman  Carné: 1990-23-3484    
 
 💻 Facultad de Ingeniería / Curso de Sistemas Operativos  
 📅 Año: 2025
