@@ -49,18 +49,21 @@ Simular la ejecución de procesos en una CPU, mostrando cómo cada algoritmo ges
 ### 🟢 FCFS (First Come First Served)
 Ejecuta los procesos en el orden en que llegan a la CPU.  
 **Ventaja:** simple y justo.  
-**Desventaja:** puede causar *efecto convoy*.
-
+**Desventaja:** puede causar *efecto convoy*. 
+![image_alt](https://github.com/BenjaminSk09/Proyecto-3-So/blob/81c33bce1c5e256dc77778faa3d4d74325d51f97/img/fcfs.png)
+---
 ### 🟣 SJF (Shortest Job First)
 Selecciona el proceso con el **tiempo de CPU más corto** disponible.  
 **Ventaja:** minimiza el tiempo promedio de espera.  
 **Desventaja:** requiere conocer la duración del proceso; posible inanición de procesos largos.
-
+![image_alt](https://github.com/BenjaminSk09/Proyecto-3-So/blob/81c33bce1c5e256dc77778faa3d4d74325d51f97/img/sjf.png)
+---
 ### 🔵 Round Robin (RR)
 Asigna un **quantum de tiempo fijo** a cada proceso de la cola circular.  
 **Ventaja:** justo y apropiado para sistemas interactivos.  
 **Desventaja:** depende de un buen valor de quantum.
-
+![image_alt](https://github.com/BenjaminSk09/Proyecto-3-So/blob/81c33bce1c5e256dc77778faa3d4d74325d51f97/img/RR.png)
+---
 ## 📚 Autores
 
 Proyecto desarrollado por 
