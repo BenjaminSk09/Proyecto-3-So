@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #1a1f71, #4b0082, #007acc);
+    background-size: 400% 400%;
+    animation: gradientMove 10s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.simulacion {
+    background: rgba(255, 255, 255, 0.05);
+    min-height: 120px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.simulacion .proceso {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.simulacion .activo {
+    background-color: #00c853;
+    transform: scale(1.1);
+}
+
+.simulacion .espera {
+    background-color: #ffb300;
+}
