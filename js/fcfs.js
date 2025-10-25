@@ -1,6 +1,6 @@
 // fcfs.js
 function ejecutarFCFS(procesosOrig) {
-    // Trabajar con copia para no mutar el array original
+    // Trabajar con copia para no mutar el array Original
     const procesos = procesosOrig.map(p => ({ ...p }));
     const timeline = [];
     const resultados = [];
