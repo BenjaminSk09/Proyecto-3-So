@@ -9,11 +9,11 @@ function ejecutarSJF(procesosOrig) {
     const n = procesos.length;
 
     while (completados < n) {
-        // procesos disponibles en este tiempo y no completados
+        // Procesos disponibles en este tiempo y no completados
         const disponibles = procesos.filter(p => p.llegada <= tiempo && !p.completado);
 
         if (disponibles.length === 0) {
-            // tiempo ocioso hasta la siguiente llegada (optimización)
+            // Tiempo ocioso hasta la siguiente llegada (optimización)
             const siguiente = procesos.filter(p => !p.completado).sort((a,b)=>a.llegada - b.llegada)[0];
             // añadir idle slots si el siguiente llega en futuro
             if (siguiente && siguiente.llegada > tiempo) {
